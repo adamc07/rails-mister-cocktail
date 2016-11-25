@@ -1,0 +1,11 @@
+<div class="container">
+  <dif class="row">
+    <div class="col-xs-12 col-xm-6 col-sm-offset-3">
+      <h1>Create a Cocktail</h1>
+      <%= simple_form_for @cocktail do |f| %>
+      <%= f.input :name, placeholder: "Enter a Name" %>
+      <%= f.submit "Add Cocktail", class: "btn btn-danger" %>
+      <% end %>
+    </div>
+  </dif>
+</div>
